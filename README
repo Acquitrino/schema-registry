@@ -1,0 +1,7 @@
+Utilizzare un Service Account con Ruolo di Resource Owner sul Topic "_schemas" e DeveloperRead sul Consumer Group "schema-registry".
+Generare una Kafka API relativa al Cluster Confluent Cloud da utilizzare. 
+Inserire le credenziali ed il bootstrap server all'interno del file .env.
+Lanciare docker-compose up -d.
+Testare con qualche curl che tutto funzioni: https://docs.confluent.io/platform/current/schema-registry/develop/using.html#common-sr-api-usage-examples.
+
+Documentazione: https://docs.confluent.io/cloud/current/cp-component/schema-reg-cloud-config.html
